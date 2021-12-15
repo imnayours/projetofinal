@@ -1,0 +1,201 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: none;
+    width: 90%;
+}
+
+.topo{
+    color: aliceblue;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding-top: -40px;
+}
+
+header{
+    background-color: #730202; 
+    padding: 10px; 
+    margin: 0; 
+    width: 130%; 
+    height: 40px;
+
+}
+
+button{
+    background-color: #730202;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+    width: 120%;
+    
+}
+
+button:hover{
+    background-color: #590202;
+}
+
+#termos, #termosLabel{
+    display: inline-block;
+    width: auto;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+body{
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+    background-blend-mode: darken;
+    width: 90%;
+    height: 150vh;
+}
+
+#main{
+    padding: 30px 50px;
+    width: 500px;
+    height: 630;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: auto;
+    border-radius: 10px;
+    bottom: 50%;
+}
+
+#main h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caixaTotal{
+    flex: 2 2 100%;
+    position: relative;
+    width: 30px;
+    border-bottom: 2px solid #84bfc3;
+    padding: 5px;
+    font-size: .7rem;
+    margin-bottom: 50px;
+    border-right-width: 2px;
+    margin-right:2px;
+}
+
+.caixaMetade{
+    flex: 1 1 50%;
+    position: relative;
+    width: 20px;
+    border-bottom: 2px solid #84bfc3;
+    padding: 5px;
+    font-size: .7rem;
+    margin-bottom: 50px;
+    border-right-width: 2px;
+    margin-right:2px;
+}
+
+.espaco{
+    margin-right: 2px;
+}
+
+label{
+    font-weight: lighter;
+    font-size: .9rem;
+    font-family: cursive;
+    vertical-align:middle;
+}
+
+
+input{
+    padding: 5px;
+    font-size: .7rem;
+    
+}
+
+div{
+    padding: 10px;
+}
+
+.tituloTab{
+    margin-top: 300px;
+    
+}
+
+
+
+.dados{
+    margin-bottom: 300px;
+    width: 100%;
+    text-align: center;
+    border: solid #ddd 1px;
+    overflow:hidden;
+    background-color: burlywood;
+
+}
+table td{
+    color: rgb(63, 15, 15);
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+}
+
+table td img{
+    width: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table th{
+    color: white;
+    background-color: red;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.centro{
+    text-align: center;
+}
+
+footer{
+    margin-top: 60%;
+    text-align: center;
+    font-size: small;
+    bottom: 0;
+    margin-top: 700;
+    display: table;
+    margin-left: 40%;
+    margin-right:-200%;
+    padding-left: 500px;
+}
